@@ -1,17 +1,17 @@
 "use strict"
 
 
-// function countdown(num) {
-//    const counter = setInterval(function () {
-//         num--;
-//         console.log(num);
-//         if (num === 0) {
-//             console.log("DONE!")
-//             clearInterval(counter);
-//         }
-//     }, 1000)
-// }
-// countdown(20);
+function countdown(num) {
+   const counter = setInterval(function () {
+        num--;
+        console.log(num);
+        if (num === 0) {
+            console.log("DONE!")
+            clearInterval(counter);
+        }
+    }, 1000)
+}
+countdown(20);
 
 
 function randomGame() {
